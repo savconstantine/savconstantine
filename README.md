@@ -22,9 +22,7 @@ Here are some ideas to get you started:
       align="right" alt="Konstantin Savusia's Dev Card"/></a>
 </div>
 
-## I'm Konstantin Savusia
-
-Javascript Engineer
+## I'm Konstantin Savusia <br>Javascript Engineer
 -------------------
 I work remotely for agencies, advise startups, and collaborate with talented people to create digital products for both businesses and consumers.
 
