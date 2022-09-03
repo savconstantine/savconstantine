@@ -23,7 +23,7 @@ Here are some ideas to get you started:
 </div>
 
 ## I'm Konstantin Savusia <br>Javascript Engineer
--------------------
+
 I work remotely for agencies, advise startups, and collaborate with talented people to create digital products for both businesses and consumers.
 
 💻 I’m currently learning more about frontend development<br>💬 Ask me about any tech-related stuff.<br>📫 How to reach me: Email - konstantinsavusia@gmail.com<br>😁 Fun fact, I am a photographer, suddenly - <a href="https://adobe.ly/2SM1QX6" target="_blank">Adobe Portfolio</a>
