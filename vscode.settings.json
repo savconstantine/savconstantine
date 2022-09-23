@@ -61,5 +61,15 @@
     "javascript": "javascriptreact"
   },
   "emmet.triggerExpansionOnTab": true,
-  "javascript.updateImportsOnFileMove.enabled": "always"
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": ["source.ts.embedded.html.vue", "source.vue"],
+        "settings": {
+          "foreground": "#9E7BB0"
+        }
+      }
+    ]
+  }
 }
