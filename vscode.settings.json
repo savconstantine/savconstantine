@@ -9,7 +9,7 @@
   "editor.detectIndentation": false,
   "editor.tabSize": 2,
   "editor.largeFileOptimizations": false,
-  "editor.fontSize": 13,
+  "editor.fontSize": 12,
   "editor.wordWrap": "on",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnPaste": true,
