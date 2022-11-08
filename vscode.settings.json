@@ -1,5 +1,4 @@
 {
-  "workbench.colorTheme": "Darcula",
   "files.autoSave": "afterDelay",
   "files.trimTrailingWhitespace": true,
   "git.autofetch": true,
@@ -11,7 +10,6 @@
   "editor.largeFileOptimizations": false,
   "editor.fontSize": 12,
   "editor.wordWrap": "on",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnPaste": true,
   "editor.quickSuggestions": {
     "strings": true
@@ -56,20 +54,32 @@
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "typescript.validate.enable": false,
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "emmet.triggerExpansionOnTab": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorTheme": "Darcula",
+  "workbench.colorCustomizations": {
+    "editor.background": "#2b2b2b",
+    "sideBar.background": "#3b3f41",
+    "panelTitle.activeBorder": "#2f8acc",
+    "panel.background": "#2b2b2b"
+  },
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
-        "scope": ["source.ts.embedded.html.vue", "source.vue"],
+        "scope": ["source.ts.embedded.html.vue"],
         "settings": {
           "foreground": "#9E7BB0"
         }
+      },
+      {
+        "scope": ["source.js"],
+        "settings": {
+          "foreground": "#a5b7c7"
+        }
       }
     ]
-  }
+  },
+  "terminal.external.osxExec": "iTerm.app",
+  "workbench.iconTheme": "vscode-icons"
 }
