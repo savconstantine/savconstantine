@@ -100,5 +100,6 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "source.organizeImports": true,
+  "editor.bracketPairColorization.enabled": true,
   "diffEditor.ignoreTrimWhitespace": false
 }
