@@ -91,5 +91,6 @@
   "workbench.editor.wrapTabs": true,
   "workbench.iconTheme": "vscode-icons",
   "editor.guides.bracketPairs": true,
+  "editor.linkedEditing": true,
   "diffEditor.ignoreTrimWhitespace": false
 }
