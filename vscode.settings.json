@@ -1,29 +1,4 @@
 {
-  "files.autoSave": "afterDelay",
-  "files.trimTrailingWhitespace": true,
-  "git.autofetch": true,
-  "git.confirmSync": false,
-  "git.openDiffOnClick": false,
-  "editor.inlineSuggest.enabled": true,
-  "editor.detectIndentation": false,
-  "editor.tabSize": 2,
-  "editor.largeFileOptimizations": false,
-  "editor.fontSize": 12,
-  "editor.wordWrap": "on",
-  "editor.formatOnPaste": true,
-  "editor.quickSuggestions": {
-    "strings": true
-  },
-  "github.copilot.enable": {
-    "*": true,
-    "yaml": false,
-    "plaintext": true,
-    "markdown": false
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.tabSize": 2
-  },
   "[*.config.js]": {
     "editor.tabSize": 2
   },
@@ -34,6 +9,19 @@
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[scss]": {
     "editor.defaultFormatter": "vscode.css-language-features",
     "editor.tabSize": 2
@@ -41,45 +29,67 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "scss.lint.unknownAtRules": "ignore",
-  "npm.keybindingsChangedWarningShown": true,
-  "workbench.editor.wrapTabs": true,
   "[vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "editor.accessibilitySupport": "off",
+  "editor.detectIndentation": false,
+  "editor.fontSize": 12,
+  "editor.formatOnPaste": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.largeFileOptimizations": false,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
   "editor.stickyScroll.enabled": true,
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "workbench.colorTheme": "Darcula",
-  "workbench.colorCustomizations": {
-    "editor.background": "#2b2b2b",
-    "sideBar.background": "#3b3f41",
-    "panelTitle.activeBorder": "#2f8acc",
-    "panel.background": "#2b2b2b"
-  },
+  "editor.tabSize": 2,
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
-        "scope": ["source.ts.embedded.html.vue"],
+        "scope": [
+          "source.ts.embedded.html.vue"
+        ],
         "settings": {
           "foreground": "#9E7BB0"
         }
       },
       {
-        "scope": ["source.js"],
+        "scope": [
+          "source.js"
+        ],
         "settings": {
           "foreground": "#a5b7c7"
         }
       }
     ]
   },
+  "editor.wordWrap": "on",
+  "files.autoSave": "afterDelay",
+  "files.trimTrailingWhitespace": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.openDiffOnClick": false,
+  "github.copilot.enable": {
+    "*": true,
+    "markdown": false,
+    "plaintext": true,
+    "yaml": false
+  },
+  "npm.keybindingsChangedWarningShown": true,
+  "scss.lint.unknownAtRules": "ignore",
   "terminal.external.osxExec": "iTerm.app",
-  "workbench.iconTheme": "vscode-icons"
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "workbench.colorCustomizations": {
+    "editor.background": "#2b2b2b",
+    "panel.background": "#2b2b2b",
+    "panelTitle.activeBorder": "#2f8acc",
+    "sideBar.background": "#3b3f41"
+  },
+  "workbench.colorTheme": "Darcula",
+  "workbench.editor.wrapTabs": true,
+  "workbench.iconTheme": "vscode-icons",
+  "editor.guides.bracketPairs": true,
+  "diffEditor.ignoreTrimWhitespace": false
 }
