@@ -34,7 +34,6 @@
   },
   "editor.accessibilitySupport": "off",
   "editor.detectIndentation": false,
-  "editor.fontSize": 12,
   "editor.formatOnPaste": true,
   "editor.inlineSuggest.enabled": true,
   "editor.largeFileOptimizations": false,
@@ -109,10 +108,20 @@
     "Darcula",
     "esbenp",
     "flatpickr",
+    "gamehub",
     "Konstantin",
+    "konstantinsavusia",
+    "nuxt",
+    "nuxtjs",
     "pinia",
+    "savconstantine",
     "Savusia",
+    "scribeai",
+    "spritesheet",
+    "stylelint",
     "tailwindcss",
-    "treeselect"
-  ]
+    "treeselect",
+    "vuepic"
+  ],
+  "scribeai.ApiKey": "ApiKey"
 }
